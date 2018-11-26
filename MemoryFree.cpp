@@ -4,8 +4,8 @@
 #include <WProgram.h>
 #endif
 
-extern unsigned int __heap_start;
-extern void *__brkval;
+extern int __heap_start;
+extern int *__brkval;
 
 /*
  * The free list structure as maintained by the
